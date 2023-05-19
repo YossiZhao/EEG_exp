@@ -1,0 +1,58 @@
+1.1547 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.4032 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+6.3224 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fef2b479cd0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fef1c56e3a0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.3225 	EXP 	window1: mouseVisible = True
+6.3231 	EXP 	window1: mouseVisible = False
+6.3231 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.3231 	EXP 	window1: recordFrameIntervals = False
+6.4588 	EXP 	window1: recordFrameIntervals = True
+7.3043 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.4823 	EXP 	Created Welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Welcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome', units='height', win=Window(...), wrapWidth=1)
+9.5570 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Products/Slide_001.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128.0, units='height', win=Window(...))
+9.5643 	EXP 	Created Do_you_like = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Do_you_like', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Do you like the product?', units='height', win=Window(...), wrapWidth=1)
+9.5770 	EXP 	window1: mouseVisible = True
+9.6157 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=['Dislike', 'Like'], lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2]), units='height', win=Window(...))
+9.6198 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks', units='height', win=Window(...), wrapWidth=1)
+9.6298 	WARNING 	t of last frame was 2325.89ms (=1/0)
+9.6298 	EXP 	slider: autoLog = True
+9.6298 	EXP 	slider: markerPos = None
+9.6298 	EXP 	slider: styleTweaks = []
+9.6298 	EXP 	slider: styleTweaks = []
+9.6298 	EXP 	slider: styleTweaks = []
+9.6298 	EXP 	slider: styleTweaks = []
+9.6298 	EXP 	slider: contrast = 1.0
+9.6298 	EXP 	slider: autoLog = True
+9.6298 	EXP 	Welcome: autoDraw = True
+9.9731 	WARNING 	t of last frame was 37.42ms (=1/26)
+12.6312 	EXP 	Welcome: autoDraw = False
+12.6312 	EXP 	image: autoDraw = True
+14.6367 	EXP 	image: autoDraw = False
+14.6367 	EXP 	image: autoDraw = False
+14.6367 	EXP 	slider: markerPos = None
+14.6367 	EXP 	slider: markerPos = None
+14.6367 	EXP 	Do_you_like: autoDraw = True
+14.6367 	EXP 	slider: autoDraw = True
+17.1735 	DATA 	Mouse: Left button down, pos=(1174,446)
+17.1864 	EXP 	slider: markerPos = 2.0044444444444443
+17.1944 	EXP 	slider: markerPos = 2.0044444444444443
+17.2025 	EXP 	slider: markerPos = 2.0044444444444443
+17.2103 	EXP 	slider: markerPos = 2.0044444444444443
+17.2192 	EXP 	slider: markerPos = 2.0044444444444443
+17.2270 	EXP 	slider: markerPos = 2.0044444444444443
+17.2358 	EXP 	slider: markerPos = 2.0044444444444443
+17.2438 	EXP 	slider: markerPos = 2.0044444444444443
+17.2525 	EXP 	slider: markerPos = 2.0044444444444443
+17.2607 	EXP 	slider: markerPos = 2.0044444444444443
+17.2689 	EXP 	slider: markerPos = 2.0044444444444443
+17.2732 	DATA 	Mouse:  Left button up, pos=(1174,446)
+17.2773 	EXP 	slider: markerPos = 2.0044444444444443
+17.2855 	EXP 	slider: markerPos = 2.0
+17.2907 	EXP 	Do_you_like: autoDraw = False
+17.2907 	EXP 	slider: autoDraw = False
+17.2907 	EXP 	text: autoDraw = True
+20.2874 	EXP 	text: autoDraw = False
+20.2874 	EXP 	text: autoDraw = False
+20.3041 	EXP 	window1: mouseVisible = True
